@@ -14,3 +14,7 @@ install:
 
 script:
 - mvn test -B
+
+matrix:
+ allow_failures:
+ - jdk: oraclejdk9
