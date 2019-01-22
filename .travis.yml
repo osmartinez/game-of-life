@@ -4,3 +4,9 @@ jdk:
 - oraclejdk8
 - oraclejdk9
 - openjdk8
+
+install:
+- apt-get install nmap
+- add-apt-repository ppa:cpick/hub
+- apt-get update
+- apt-get install hub
