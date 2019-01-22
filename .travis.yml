@@ -11,3 +11,6 @@ install:
 - sudo apt-get update
 - sudo apt-get install -y hub
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+script:
+- mvn test -B
