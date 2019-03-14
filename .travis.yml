@@ -25,7 +25,7 @@ after_success:
 deploy:
   provider: heroku
   api_key:
-   secure: ...
+   secure: eq7svz2PeRGv6uEzGoAqPzdTgNTylYw+fbsHSwU5z6ERMqt9Z8zv/Yl2V/uUX91vIEWAD2dsgOeKf8bkxrgOFWNgSzlPETklaX+Df9yehmAutmy+xEr/bYoTrDnWRu+1em4Dq9bFk6zRFcTP1LZyjcZuohGf4j5W5EJ1wfYWsd/GMyA074GiSgva4Csx38iCZFW0rgU+W3ds6DWITIOQ2Ze5R++x99ophu/cmljgQtVV8qUOVCJN7UreDY2gBP2DF1gLTIlYiUsbESMoRQVSbtsZ5n2lCWI/uR1sv5+LQ25gNJzRTDLPKegWbD7kIFH3ZACkxaAjIvQTwQm0NhsG/cEKz9NSE6kkm8jTIBnhEFr7BsWLHR+2yJi1mW4aGue7DJPXpfpNIIJOMbj65KjAsM0/ol9dLWdrxoFdbKpZAduq/hm+vT7aEN3B0VG8GmQfPBuECdy9Z9UGsNHtclHX+9BoEul+OtuMKDa3TUAIwiPAZ2M9iwPaydfaJ9lo8Y43Gpjm9Wfvd2M5sRMTgJZy0I5iTzlUiMupLBYm8lS30tQPU3G5WOAankzj/CWYvUybiK1laPXlnB4Tj6Wg7geIEuXFH4aJVGYvWUFJUIqGHJfQwznR8l9rhL48itN8ZnnmjKnprgLwkkCn5OBvMYmlXpSPXvPURTL+qT8qMSm0NOs=
   app: osmartinez-game-of-life
   jdk: openjdk8
   skip_cleanup: true
