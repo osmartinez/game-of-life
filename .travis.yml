@@ -21,3 +21,11 @@ matrix:
 
 after_success:
 - mvn clean test jacoco:report coveralls:report
+
+deploy:
+  provider: heroku
+  api_key:
+   secure: ...
+  app: osmartinez-game-of-life
+  jdk: openjdk8
+  skip_cleanup: true
